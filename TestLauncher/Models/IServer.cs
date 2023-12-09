@@ -9,7 +9,7 @@ namespace TestLauncher.Models
 {
     class IServer
     {
-
+        
        // public string Name { get; set; }
 
        // public ImageSource Image{ get; set; }
