@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rlcPRsyOy9keZDnbVgfzO7DDqJzcPWn2KO0W64KsdkXUeeXtGwPPM3rAcrV9uPmpeJAiidZmG1drC4HN21BIsg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rashe\\source\\repos\\TestLauncher\\TestLauncher\\TestLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rashe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\rashe\\.nuget\\packages\\mvvmcross\\9.1.1\\mvvmcross.9.1.1.nupkg.sha512",
+    "C:\\Users\\rashe\\.nuget\\packages\\sharpvectors\\1.8.2\\sharpvectors.1.8.2.nupkg.sha512"
+  ],
+  "logs": []
+}

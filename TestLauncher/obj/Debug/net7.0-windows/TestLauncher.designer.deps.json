@@ -1,0 +1,89 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Microsoft.Extensions.Logging.Abstractions/7.0.1": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.723.27404"
+          }
+        }
+      },
+      "MvvmCross/9.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/MvvmCross.dll": {
+            "assemblyVersion": "9.1.1.0",
+            "fileVersion": "9.1.1.0"
+          }
+        }
+      },
+      "SharpVectors/1.8.2": {
+        "runtime": {
+          "lib/net7.0-windows7.0/SharpVectors.Converters.Wpf.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
+          },
+          "lib/net7.0-windows7.0/SharpVectors.Core.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
+          },
+          "lib/net7.0-windows7.0/SharpVectors.Css.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
+          },
+          "lib/net7.0-windows7.0/SharpVectors.Dom.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
+          },
+          "lib/net7.0-windows7.0/SharpVectors.Model.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
+          },
+          "lib/net7.0-windows7.0/SharpVectors.Rendering.Gdi.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
+          },
+          "lib/net7.0-windows7.0/SharpVectors.Rendering.Wpf.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
+          },
+          "lib/net7.0-windows7.0/SharpVectors.Runtime.Wpf.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.Logging.Abstractions/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pkeBFx0vqMW/A3aUVHh7MPu3WkBhaVlezhSZeb1c9XD0vUReYH1TLFSy5MxJgZfmz5LZzYoErMorlYZiwpOoNA==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512"
+    },
+    "MvvmCross/9.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HzuX37K1GJS6VVG2LsZU4aj6L3I7OlFBZstjyyjMD8BH7ZJvIsvOr4yYpRdCHLXg4bupVZbTqmJ5jFnPm5Ycgw==",
+      "path": "mvvmcross/9.1.1",
+      "hashPath": "mvvmcross.9.1.1.nupkg.sha512"
+    },
+    "SharpVectors/1.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dmQiQTYVZDGKUeINY5g9cKFOgU4zq6LsnXTrwce0pj1sfP4GxOOt9idcp48a8PyXcNoPrXq/XtQ2L/MvOP0YpA==",
+      "path": "sharpvectors/1.8.2",
+      "hashPath": "sharpvectors.1.8.2.nupkg.sha512"
+    }
+  }
+}

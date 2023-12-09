@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Fonts\minecraft.ttf" />
+    <None Remove="Views\Pages\vk.jpg" />
+    <None Remove="Views\Resources\Images\background.jpg" />
+    <None Remove="Views\Resources\Images\discord.svg" />
+    <None Remove="Views\Resources\Images\head.svg" />
+    <None Remove="Views\Resources\Images\ValleyScreen.jpg" />
+    <None Remove="Views\Resources\Images\vk.jpg" />
+    <None Remove="Views\Resources\Images\vk.svg" />
+    <None Remove="Views\Resources\Images\youtube.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\Loger\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross" Version="9.1.1" />
+    <PackageReference Include="SharpVectors" Version="1.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\Fonts\minecraft.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\Pages\vk.jpg" />
+    <Resource Include="Views\Resources\Images\background.jpg" />
+    <Resource Include="Views\Resources\Images\discord.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\Resources\Images\head.svg" />
+    <Resource Include="Views\Resources\Images\ValleyScreen.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\Resources\Images\vk.jpg" />
+    <Resource Include="Views\Resources\Images\vk.svg" />
+    <Resource Include="Views\Resources\Images\youtube.svg" />
+  </ItemGroup>
+
+</Project>
