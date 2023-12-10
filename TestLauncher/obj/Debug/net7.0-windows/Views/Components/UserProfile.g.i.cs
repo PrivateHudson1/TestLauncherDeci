@@ -53,7 +53,7 @@ namespace TestLauncher.Views.Components {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TestLauncher;V1.0.0.0;component/views/components/userprofile.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TestLauncher;component/views/components/userprofile.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Components\UserProfile.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

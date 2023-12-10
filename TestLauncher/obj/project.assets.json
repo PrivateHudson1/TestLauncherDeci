@@ -91,6 +91,22 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "SixLabors.ImageSharp/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/SixLabors.ImageSharp.props": {}
+        }
       }
     }
   },
@@ -358,12 +374,29 @@
         "sharpvectors.1.8.2.nupkg.sha512",
         "sharpvectors.nuspec"
       ]
+    },
+    "SixLabors.ImageSharp/3.1.0": {
+      "sha512": "ESlqDmrxIFxOd8VcKpyymA6uav51iXFp/j73fYcDMpIXWe2VEsjS2OL8nZGpvgt2Y1LKgQpM5ZpPJa/YlS73Pg==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.1.0.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
       "MvvmCross >= 9.1.1",
-      "SharpVectors >= 1.8.2"
+      "SharpVectors >= 1.8.2",
+      "SixLabors.ImageSharp >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -417,6 +450,10 @@
           "SharpVectors": {
             "target": "Package",
             "version": "[1.8.2, )"
+          },
+          "SixLabors.ImageSharp": {
+            "target": "Package",
+            "version": "[3.1.0, )"
           }
         },
         "imports": [

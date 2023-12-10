@@ -39,3 +39,6 @@ C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\S
 C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\SharpVectors.Rendering.Gdi.dll
 C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\SharpVectors.Rendering.Wpf.dll
 C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\SharpVectors.Runtime.Wpf.dll
+C:\Users\rashe\source\repos\TestLauncher\TestLauncher\obj\Debug\net7.0-windows\Views\Pages\PersonalAccount.g.cs
+C:\Users\rashe\source\repos\TestLauncher\TestLauncher\obj\Debug\net7.0-windows\Views\Pages\PersonalAccount.baml
+C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\SixLabors.ImageSharp.dll
