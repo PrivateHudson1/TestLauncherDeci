@@ -49,11 +49,11 @@ namespace TestLauncher.ViewModel
         {
            await Task.Run(async () =>
                 {
-                    SkinViewerManager skinViewerManager = new SkinViewerManager("https://i.pinimg.com/originals/db/a6/cd/dba6cd0ad7d08925ec7a087d88d4c89b.jpg");
+                    SkinViewerManager skinViewerManager = new SkinViewerManager("https://minecrafthub.com/image/share/50212_5bae1817dce46.png");
 
                     await skinViewerManager.LoadAsync();
 
-                   // Skin = skinViewerManager.GetHead(1);
+                   // Skin = skinViewerManager.GetHead(13); 
                 });
         }
     }

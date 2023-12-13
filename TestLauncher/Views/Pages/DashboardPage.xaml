@@ -180,8 +180,27 @@
                     FontFamily="{StaticResource MinecraftRus}"
                     TextDecorations="Baseline"
                     BaselineOffset="50"
-                    Text="Sign up" 
+                    
                     Cursor="Hand" Height="29">
+
+                        <Hyperlink NavigateUri="https://github.com/PrivateHudson1" RequestNavigate="HyperlinkSignUp_RequestNavigate" TextDecorations="None">
+                            <TextBlock Text="Sign Up">
+
+
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Foreground" Value="White"/>
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="true">
+                                                <Setter Property="Foreground" Value="White"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+                        </Hyperlink>
+                        
+                        
                     </TextBlock>
 
                     <TextBlock x:Name="LabelForgotPassword" Style="{StaticResource GlowText}"
@@ -191,9 +210,24 @@
                                FontFamily="{StaticResource MinecraftRus}"
                                TextDecorations="Baseline"
                                BaselineOffset="-5"
-                               Text="Forgot password?"
                                Margin="0,-45,80,0" 
                                Cursor="Hand">
+                        <Hyperlink NavigateUri="https://github.com/GamerVII-NET" RequestNavigate="HyperlinkForgotPass_RequestNavigate" TextDecorations="None">
+                            <TextBlock Text="Forgot password?">
+
+
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Foreground" Value="White"/>
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="true">
+                                                <Setter Property="Foreground" Value="White"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+                        </Hyperlink>
                         
                     </TextBlock>
                 </StackPanel>

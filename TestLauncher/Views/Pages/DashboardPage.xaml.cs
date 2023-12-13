@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -20,6 +22,9 @@ namespace TestLauncher.Views.Pages
     /// </summary>
     public partial class DashboardPage : Page
     {
+        
+
+
         public DashboardPage()
         {
             InitializeComponent();
@@ -38,6 +43,21 @@ namespace TestLauncher.Views.Pages
         private void AuthBut_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new Uri("Views/Pages/ServerList.xaml", UriKind.Relative));
+        }
+
+        private void HyperlinkSignUp_RequestNavigate(object sender, RequestNavigateEventArgs e)
+        {
+            string urlSignUp = e.Uri.AbsoluteUri;
+            System.Diagnostics.Process.Start("explorer.exe", urlSignUp);
+            e.Handled = true;
+        }
+
+
+        private void HyperlinkForgotPass_RequestNavigate(object sender, RequestNavigateEventArgs e)
+        {
+            string urlForgotPass = e.Uri.AbsoluteUri;
+            System.Diagnostics.Process.Start("explorer.exe", urlForgotPass);
+            e.Handled = true;
         }
     }
 }
