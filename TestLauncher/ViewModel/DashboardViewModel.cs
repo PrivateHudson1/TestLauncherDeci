@@ -1,4 +1,5 @@
 ﻿using MvvmCross.ViewModels;
+using Npgsql;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +34,7 @@ namespace TestLauncher.ViewModel
 
         public DashboardViewModel()
         {
+            
 
             BitmapImage bitmapImage = new BitmapImage();
             bitmapImage.BeginInit();

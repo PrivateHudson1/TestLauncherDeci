@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Security.Policy;
@@ -56,8 +57,29 @@ namespace TestLauncher.Views.Pages
         private void HyperlinkForgotPass_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             string urlForgotPass = e.Uri.AbsoluteUri;
-            System.Diagnostics.Process.Start("explorer.exe", urlForgotPass);
+            Process.Start("explorer.exe", urlForgotPass);
             e.Handled = true;
+        }
+
+        private void youtubeRedirect_Click(object sender, RoutedEventArgs e)
+        {
+
+            string urlYoutube = "https://www.youtube.com/@BrotherhoodForces";
+            Process.Start( "explorer.exe", urlYoutube);
+
+
+        }
+
+        private void discordRedirect_Click(object sender, RoutedEventArgs e)
+        {
+            string urlDiscord = "https://discord.com/channels/1079515306420097034/1079515481406439444";
+            Process.Start("explorer.exe", urlDiscord);
+        }
+
+        private void vkRedirect_Click(object sender, RoutedEventArgs e)
+        {
+            string urlVk = "https://vk.com/brotherhoodforces";
+            Process.Start("explorer.exe", urlVk);
         }
     }
 }

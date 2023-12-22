@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "i+GNdlIlCS31ICBJhk2VgvamsuI7yJu1ra31Yw0eQTuxcDQ3HOQ2EPfa0Zl3RP8gfE5PbfBKpEuUhwuVovhPPQ==",
+  "dgSpecHash": "2E77YcLHLJXtYY/5ylvk9b4gJjfUq8pIFa+e1eEt5++1JX7nSmsZa0BZ8fTV+89qP/lvPkvQOA5Bm6ldQFZ45g==",
   "success": true,
   "projectFilePath": "C:\\Users\\rashe\\source\\repos\\TestLauncher\\TestLauncher\\TestLauncher.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rashe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\rashe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\rashe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\rashe\\.nuget\\packages\\mvvmcross\\9.1.1\\mvvmcross.9.1.1.nupkg.sha512",
+    "C:\\Users\\rashe\\.nuget\\packages\\npgsql\\8.0.1\\npgsql.8.0.1.nupkg.sha512",
     "C:\\Users\\rashe\\.nuget\\packages\\sharpvectors\\1.8.2\\sharpvectors.1.8.2.nupkg.sha512",
     "C:\\Users\\rashe\\.nuget\\packages\\sixlabors.imagesharp\\3.1.0\\sixlabors.imagesharp.3.1.0.nupkg.sha512"
   ],

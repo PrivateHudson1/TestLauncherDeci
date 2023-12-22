@@ -279,11 +279,11 @@
             <Border>
                 <StackPanel Orientation="Horizontal">
 
-                    <Button Width="60"
+                    <Button x:Name="vkRedirectS"  Width="60"
                         Margin="0,0,0,0"
                         Height="60"
                         Cursor="Hand"
-                        Style="{StaticResource RoundButton}" >
+                        Style="{StaticResource RoundButton}" Click="vkRedirectS_Click" >
                         <svgc:SvgViewbox
                         
                         Source="/Views/Resources/Images/vk.svg"/>
@@ -292,11 +292,11 @@
 
                     </Button>
 
-                    <Button Width="60" 
+                    <Button x:Name="discordRedirecS" Width="60" 
                         Height="60"
                         Margin="10,0,0,0"
                         Cursor="Hand"
-                        Style="{StaticResource RoundButton}" >
+                        Style="{StaticResource RoundButton}" Click="discordRedirecS_Click" >
                         <svgc:SvgViewbox
                         
                         Source="/Views/Resources/Images/discord.svg"/>
@@ -306,11 +306,11 @@
                     </Button>
 
 
-                    <Button Width="60" 
+                    <Button x:Name="youtubeRedirectS" Width="60" 
                         Height="60"
                         Margin="10,0,0,0"
                         Cursor="Hand"
-                        Style="{StaticResource RoundButton}" >
+                        Style="{StaticResource RoundButton}" Click="youtubeRedirectS_Click" >
                         <svgc:SvgViewbox
                         
                         Source="/Views/Resources/Images/youtube.svg"/>

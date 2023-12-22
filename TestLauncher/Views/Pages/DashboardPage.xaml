@@ -44,10 +44,13 @@
 
                 <StackPanel>
                     
-                    <Button Width="60" 
+                    <Button x:Name="vkRedirect" Width="60" 
                         Height="60"
                         Cursor="Hand"
-                        Style="{StaticResource RoundButton}" Margin="60,60,60,0" VerticalAlignment="Top">
+                        Style="{StaticResource RoundButton}" 
+                        Margin="60,60,60,0" 
+                        VerticalAlignment="Top" 
+                        Click="vkRedirect_Click">
                         <svgc:SvgViewbox
                         
                         Source="/Views/Resources/Images/vk.svg"/>
@@ -56,10 +59,10 @@
 
                     </Button>
 
-                    <Button Width="60" 
+                    <Button x:Name="discordRedirect" Width="60" 
                         Height="60"
                         Cursor="Hand"
-                        Style="{StaticResource RoundButton}" Margin="60,10,60,0" VerticalAlignment="Top">
+                        Style="{StaticResource RoundButton}" Margin="60,10,60,0" VerticalAlignment="Top" Click="discordRedirect_Click">
                         <svgc:SvgViewbox
                         
                         Source="/Views/Resources/Images/discord.svg"/>
@@ -68,17 +71,15 @@
 
                     </Button>
 
-                    <Button Width="60" 
+                    <Button x:Name="youtubeRedirect" Width="60" 
                         Height="60"
                         Cursor="Hand"
-                        Style="{StaticResource RoundButton}" Margin="60,10,60,0" VerticalAlignment="Top">
-                        
-                        <svgc:SvgViewbox
-                        
-                        Source="/Views/Resources/Images/youtube.svg"/>
+                        Style="{StaticResource RoundButton}" Margin="60,10,60,0" VerticalAlignment="Top" Click="youtubeRedirect_Click">
 
-
-
+                        <Button.Content>
+                            <svgc:SvgViewbox
+                            Source="/Views/Resources/Images/youtube.svg"/>
+                        </Button.Content>
                     </Button>
                 </StackPanel>
                 
