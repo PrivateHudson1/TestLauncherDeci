@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TestLauncher.Models;
 
 namespace TestLauncher.Views.Pages
 {
@@ -41,8 +43,16 @@ namespace TestLauncher.Views.Pages
 
         }
 
-        private void AuthBut_Click(object sender, RoutedEventArgs e)
+        private async void AuthBut_Click(object sender, RoutedEventArgs e)
         {
+
+            string userName = PasswordTextBox.Text;
+            LauncherService launch = new LauncherService();
+            LauncherService.GetUser(userName);
+            
+            
+            
+
             this.NavigationService.Navigate(new Uri("Views/Pages/ServerList.xaml", UriKind.Relative));
         }
 
@@ -72,7 +82,7 @@ namespace TestLauncher.Views.Pages
 
         private void discordRedirect_Click(object sender, RoutedEventArgs e)
         {
-            string urlDiscord = "https://discord.com/channels/1079515306420097034/1079515481406439444";
+            string urlDiscord = "https://discord.gg/bme87Nf2XY";
             Process.Start("explorer.exe", urlDiscord);
         }
 

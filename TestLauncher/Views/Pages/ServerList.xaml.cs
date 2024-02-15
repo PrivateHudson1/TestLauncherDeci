@@ -34,7 +34,7 @@ namespace TestLauncher.Views.Pages
 
         private void discordRedirecS_Click(object sender, RoutedEventArgs e)
         {
-            string urlDiscord = "https://discord.com/channels/1079515306420097034/1079515481406439444";
+            string urlDiscord = "https://discord.gg/bme87Nf2XY";
             Process.Start("explorer.exe", urlDiscord);
         }
 

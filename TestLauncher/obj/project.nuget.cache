@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "2E77YcLHLJXtYY/5ylvk9b4gJjfUq8pIFa+e1eEt5++1JX7nSmsZa0BZ8fTV+89qP/lvPkvQOA5Bm6ldQFZ45g==",
+  "dgSpecHash": "fGsJWLMsj7z84RgWUW9jXAEPgVrX12wZ3vgdJvn62i0XrKwzzy8uC2uqGF1qceRT08TQc/8degNST/4ssLM0IQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rashe\\source\\repos\\TestLauncher\\TestLauncher\\TestLauncher.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rashe\\.nuget\\packages\\microsoft.aspnet.webapi.client\\6.0.0\\microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
     "C:\\Users\\rashe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\rashe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\rashe\\.nuget\\packages\\mvvmcross\\9.1.1\\mvvmcross.9.1.1.nupkg.sha512",
+    "C:\\Users\\rashe\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\rashe\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\rashe\\.nuget\\packages\\npgsql\\8.0.1\\npgsql.8.0.1.nupkg.sha512",
     "C:\\Users\\rashe\\.nuget\\packages\\sharpvectors\\1.8.2\\sharpvectors.1.8.2.nupkg.sha512",
-    "C:\\Users\\rashe\\.nuget\\packages\\sixlabors.imagesharp\\3.1.0\\sixlabors.imagesharp.3.1.0.nupkg.sha512"
+    "C:\\Users\\rashe\\.nuget\\packages\\sixlabors.imagesharp\\3.1.0\\sixlabors.imagesharp.3.1.0.nupkg.sha512",
+    "C:\\Users\\rashe\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\rashe\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

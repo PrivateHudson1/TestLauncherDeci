@@ -35,6 +35,15 @@
         </Grid.ColumnDefinitions>
 
 
+        <Image Width="400" 
+                   Height="240" 
+                   Grid.ColumnSpan="3" 
+                   Margin="50,327,0,-17" 
+                   Grid.RowSpan="2" 
+                   Grid.Row="1"
+                   Source="/Views/Resources/Images/SeeYouKr.png" Grid.Column="4"/>
+
+
         <Border Grid.Row="1" Grid.Column="1" Style="{StaticResource WindowBorderStyle}"/>
         <Border Grid.Row="1" Grid.Column="3" Style="{StaticResource WindowBorderStyle}"/>
         <Border Grid.Row="1" Grid.Column="5" Style="{StaticResource WindowBorderStyle }"/>

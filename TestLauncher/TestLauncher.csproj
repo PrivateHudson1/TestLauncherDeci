@@ -13,6 +13,7 @@
     <None Remove="Views\Resources\Images\background.jpg" />
     <None Remove="Views\Resources\Images\discord.svg" />
     <None Remove="Views\Resources\Images\head.svg" />
+    <None Remove="Views\Resources\Images\SeeYouKr.png" />
     <None Remove="Views\Resources\Images\ValleyScreen.jpg" />
     <None Remove="Views\Resources\Images\vk.jpg" />
     <None Remove="Views\Resources\Images\vk.svg" />
@@ -24,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
     <PackageReference Include="MvvmCross" Version="9.1.1" />
     <PackageReference Include="Npgsql" Version="8.0.1" />
     <PackageReference Include="SharpVectors" Version="1.8.2" />
@@ -40,6 +42,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Views\Resources\Images\head.svg" />
+    <Resource Include="Views\Resources\Images\SeeYouKr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Views\Resources\Images\ValleyScreen.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

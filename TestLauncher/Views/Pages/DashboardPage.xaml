@@ -20,8 +20,6 @@
 
     <Grid>
 
-        
-
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
             <RowDefinition  />
@@ -36,6 +34,16 @@
 
         </Grid.ColumnDefinitions>
 
+
+        <Image Width="400" 
+                   Height="240" 
+                   Grid.ColumnSpan="2" 
+                   Margin="560,320,0,-20" 
+                   Grid.RowSpan="3" 
+                   Grid.Row="1"
+                   Source="/Views/Resources/Images/SeeYouKr.png" Grid.Column="1"/>
+
+
         <Border Grid.Row="1" Grid.Column="1" Style="{StaticResource WindowBorderStyle}"/>
 
         <Grid Grid.Row="1" Grid.Column="2">
@@ -43,7 +51,7 @@
             <Border>
 
                 <StackPanel>
-                    
+
                     <Button x:Name="vkRedirect" Width="60" 
                         Height="60"
                         Cursor="Hand"
@@ -76,13 +84,11 @@
                         Cursor="Hand"
                         Style="{StaticResource RoundButton}" Margin="60,10,60,0" VerticalAlignment="Top" Click="youtubeRedirect_Click">
 
-                        <Button.Content>
-                            <svgc:SvgViewbox
+                        <svgc:SvgViewbox
                             Source="/Views/Resources/Images/youtube.svg"/>
-                        </Button.Content>
                     </Button>
                 </StackPanel>
-                
+
             </Border>
 
 
@@ -97,7 +103,7 @@
             </Grid.RowDefinitions>
 
 
-           
+
             <Border Grid.Row ="0" >
                 <StackPanel>
 
@@ -108,9 +114,7 @@
                                VerticalAlignment="Center"
                                HorizontalAlignment="Center"
                                Margin="0,0,130,-40"
-                               Text="Email or username">
-                        
-                    </TextBlock>
+                               Text="Email or username"/>
 
 
 
@@ -119,10 +123,9 @@
                         MaxLength="20"
                         TextWrapping="NoWrap" 
                         IsReadOnly="True"
-                        Margin="0,40,0,0">
-                    </TextBox>
+                        Margin="0,40,0,0"/>
 
-                 
+
 
                     <TextBlock x:Name="LabelPassword" Style="{StaticResource GlowText}"
                                FontSize="20"
@@ -132,10 +135,8 @@
                                VerticalAlignment="Center"
                                HorizontalAlignment="Center"
                                Margin="0,10,220,10"
-                               Text="Password">
-                        
-                    </TextBlock>
-                    
+                               Text="Password"/>
+
                     <TextBox x:Name="LoginTextBox" 
                         Style="{StaticResource TextBoxAuth}"
                         MaxLength="20"
@@ -143,10 +144,10 @@
                         IsReadOnly="True"/>
 
                 </StackPanel>
-               
-               
 
-               
+
+
+
             </Border>
 
             <Border Grid.Row="1" >
@@ -155,13 +156,11 @@
                 FontFamily="{StaticResource MinecraftRus}"
                 VerticalAlignment="Center"
                 Foreground="White" 
-                FontSize="30" Click="AuthBut_Click">
-                
-                </Button>
+                FontSize="30" Click="AuthBut_Click"/>
             </Border>
 
             <Border Grid.Row="2" >
-                
+
                 <StackPanel>
 
                     <TextBlock x:Name="LabelHaveAccount" Style="{StaticResource GlowText}"
@@ -170,8 +169,7 @@
                     Foreground="White"
                     FontFamily="{StaticResource MinecraftRus}"
                     Margin="70,30,0,0"
-                    Text="Don't have an account?">
-                    </TextBlock>
+                    Text="Don't have an account?"/>
 
                     <TextBlock x:Name="LabelSignUp" Style="{StaticResource GlowText}"
                     FontSize="20"
@@ -182,27 +180,22 @@
                     TextDecorations="Baseline"
                     BaselineOffset="50"
                     
-                    Cursor="Hand" Height="29">
-
-                        <Hyperlink NavigateUri="https://github.com/PrivateHudson1" RequestNavigate="HyperlinkSignUp_RequestNavigate" TextDecorations="None">
+                    Cursor="Hand" Height="29"><Hyperlink NavigateUri="https://github.com/PrivateHudson1" RequestNavigate="HyperlinkSignUp_RequestNavigate" TextDecorations="None"><InlineUIContainer>
                             <TextBlock Text="Sign Up">
 
 
-                                <TextBlock.Style>
-                                    <Style TargetType="TextBlock">
-                                        <Setter Property="Foreground" Value="White"/>
-                                        <Style.Triggers>
-                                            <Trigger Property="IsMouseOver" Value="true">
-                                                <Setter Property="Foreground" Value="White"/>
-                                            </Trigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </TextBlock.Style>
+                                    <TextBlock.Style>
+                                        <Style TargetType="{x:Type TextBlock}">
+                                            <Setter Property="Foreground" Value="White"/>
+                                            <Style.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="true">
+                                                    <Setter Property="Foreground" Value="White"/>
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
                             </TextBlock>
-                        </Hyperlink>
-                        
-                        
-                    </TextBlock>
+                            </InlineUIContainer></Hyperlink></TextBlock>
 
                     <TextBlock x:Name="LabelForgotPassword" Style="{StaticResource GlowText}"
                                FontSize="20"
@@ -212,31 +205,28 @@
                                TextDecorations="Baseline"
                                BaselineOffset="-5"
                                Margin="0,-45,80,0" 
-                               Cursor="Hand">
-                        <Hyperlink NavigateUri="https://github.com/GamerVII-NET" RequestNavigate="HyperlinkForgotPass_RequestNavigate" TextDecorations="None">
+                               Cursor="Hand"><Hyperlink NavigateUri="https://github.com/GamerVII-NET" RequestNavigate="HyperlinkForgotPass_RequestNavigate" TextDecorations="None"><InlineUIContainer>
                             <TextBlock Text="Forgot password?">
 
 
-                                <TextBlock.Style>
-                                    <Style TargetType="TextBlock">
-                                        <Setter Property="Foreground" Value="White"/>
-                                        <Style.Triggers>
-                                            <Trigger Property="IsMouseOver" Value="true">
-                                                <Setter Property="Foreground" Value="White"/>
-                                            </Trigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </TextBlock.Style>
+                                    <TextBlock.Style>
+                                        <Style TargetType="{x:Type TextBlock}">
+                                            <Setter Property="Foreground" Value="White"/>
+                                            <Style.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="true">
+                                                    <Setter Property="Foreground" Value="White"/>
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
                             </TextBlock>
-                        </Hyperlink>
-                        
-                    </TextBlock>
+                            </InlineUIContainer></Hyperlink></TextBlock>
                 </StackPanel>
-                
-                
-                
+
+
+
             </Border>
-           
+
         </Grid>
 
 

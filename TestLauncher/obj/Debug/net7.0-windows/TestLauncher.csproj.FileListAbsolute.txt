@@ -44,3 +44,6 @@ C:\Users\rashe\source\repos\TestLauncher\TestLauncher\obj\Debug\net7.0-windows\V
 C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\SixLabors.ImageSharp.dll
 C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\Npgsql.dll
+C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\System.Net.Http.Formatting.dll
+C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\rashe\source\repos\TestLauncher\TestLauncher\bin\Debug\net7.0-windows\Newtonsoft.Json.Bson.dll
